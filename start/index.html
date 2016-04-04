@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Blob</title>
+        <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <p>
+    Double click to split. <a id="keyboardUp" href="#">Increase</a> 
+    / <a id="keyboardDown" href="#">decrease</a> size or <a id="keyboardLeft" href="#">Previous</a> 
+    / <a id="keyboardRight" href="#">Next</a> skin
+    / Sound: <a href="#"><span id="muteButton">On</span></a>
+	<span style="display: none;" id="dolbyLogo"> / <a href="https://developer.dolby.com/" target="_dolby">Dolby Audio</a></span>
+    </p>
+	<canvas id='world'></canvas>
+
+  <!-- Uncomment the following lines to enable Dolby Digital Plus feature detection and initialize the SoundMixer object
+  
+	<script src="https://s3-us-west-1.amazonaws.com/dolbydeveloper/1.1.0/js/dolby.min.js"></script>
+	<script src="js/SoundMixer.js"></script>
+  -->
+
+  <script src="js/Blob.js"></script>
+
+</body>
+</html>
